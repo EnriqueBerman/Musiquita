@@ -1,0 +1,35 @@
+h1{
+    color: antiquewhite;
+    text-shadow: 1px 2px 2px pink;
+    text-align: center;
+}
+div.foto{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue;
+    float: left;
+    width: 350px;
+}
+div.foto img{
+    width: 100%;
+    height: auto;
+}
+div.foto:hover{
+border: 1px solid lightcoral;
+transform: rotate(-3deg);
+}
+div.datos{
+    text-align: center;
+    text-shadow: 2px 2px 5px plum;
+    padding: 10px;
+    color: antiquewhite; 
+}
+body {
+    background-image: linear-gradient(0deg,rgb(135, 121, 197) 23.8%,rgb(218, 97, 191) 92%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:monospace, sans-serif;
+    margin: 0;
+}
